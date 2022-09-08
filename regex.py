@@ -5,8 +5,10 @@ from this import d
 from FSM import FSM
 
 class Regex:
-    language = []
-    FSM: Object = None
+    alphabet = []
+    machine: FSM = None
 
-    def setLanguage(self, l):
-        self.language = l
+    ### Constructor ###
+    def __init__(self, alphabet):
+        self.alphabet = alphabet
+        self.machine.setAlphabet(alphabet)
