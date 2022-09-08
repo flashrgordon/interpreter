@@ -10,5 +10,3 @@ class Regex:
 
     def setLanguage(self, l):
         self.language = l
-
-    def generateFSM(self):
